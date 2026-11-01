@@ -1,0 +1,1594 @@
+fileFormatVersion: 2
+guid: 756bc34c393f543f18e839bc0a948d9d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Standing_Phone_001_mcp' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'VirtualAgent:Solving:Spine3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'VirtualAgent:Solving:Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'VirtualAgent:Solving:RightHandRing'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'VirtualAgent:Solving:RightHandPinky'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'VirtualAgent:Solving:RightHandIndex'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'VirtualAgent:Solving:RightHandThumb1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'VirtualAgent:Solving:LeftHandRing'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'VirtualAgent:Solving:LeftHandPinky'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: VirtualAgent:Solving:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandIndex
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandIndex1
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandIndex2
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandPinky1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandPinky2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandPinky3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandRing1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandRing2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:LeftHandRing3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandIndex1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandIndex2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandIndex3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandThumb2
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandThumb3
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandThumb4
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandPinky1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandPinky2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandPinky3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandRing1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandRing2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:RightHandRing3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VirtualAgent:Solving:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Standing_Phone_001(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System
+      parentName: Standing_Phone_001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2113008
+      parentName: System
+      position: {x: 0.5, y: 0, z: -1.2246467e-16}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2113713
+      parentName: System
+      position: {x: 2.3450708, y: 2.1103606, z: 0.7816762}
+      rotation: {x: 0.6823976, y: 0.17758596, z: -0.69187653, w: 0.15525338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2115833
+      parentName: System
+      position: {x: -2.376462, y: 2.064545, z: -0.73457974}
+      rotation: {x: 0.5775521, y: -0.16968054, z: 0.7740259, w: 0.1962806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2115966
+      parentName: System
+      position: {x: -1.3432575, y: 2.0725708, z: -1.6139082}
+      rotation: {x: 0.1516733, y: -0.25067672, z: 0.955316, w: 0.039087627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2116306
+      parentName: System
+      position: {x: -0.16314049, y: 2.083577, z: -1.6567445}
+      rotation: {x: 0.008332133, y: -0.21654925, z: 0.97623485, w: 0.0016071126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2119116
+      parentName: System
+      position: {x: 2.2638419, y: 2.1113129, z: -1.5888205}
+      rotation: {x: 0.46837106, y: 0.22387542, z: -0.84050864, w: 0.15509243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2119259
+      parentName: System
+      position: {x: 3.5, y: 0, z: -8.5725277e-16}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2119765
+      parentName: System
+      position: {x: -2.192519, y: 2.0732975, z: 2.9352307}
+      rotation: {x: 0.91286975, y: -0.043619577, z: 0.35725516, w: 0.1927045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:Vero_v2_2_2119832
+      parentName: System
+      position: {x: 0.45994744, y: 2.1021633, z: 2.8283374}
+      rotation: {x: 0.9691608, y: 0.008965984, z: -0.08743358, w: 0.23022248}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent
+      parentName: Standing_Phone_001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling
+      parentName: VirtualAgent
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:Position
+      parentName: VirtualAgent:Labeling
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:Hips
+      parentName: VirtualAgent
+      position: {x: -0.035480913, y: 0.9179677, z: 0.16935526}
+      rotation: {x: 0.0024027189, y: 0.7529541, z: 0.6572661, w: -0.03249125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:Spine
+      parentName: VirtualAgent:Labeling:Hips
+      position: {x: -0, y: 0, z: 0.19732279}
+      rotation: {x: -0.082869254, y: -0.0037327756, z: 0.021099629, w: 0.9963301}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:Head
+      parentName: VirtualAgent:Labeling:Spine
+      position: {x: -0, y: 0, z: 0.4017165}
+      rotation: {x: 0.0047568385, y: -0.009962525, z: -0.049450886, w: 0.9987155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:Head_End
+      parentName: VirtualAgent:Labeling:Head
+      position: {x: -0, y: 0, z: 0.114782535}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftShoulder
+      parentName: VirtualAgent:Labeling:Spine
+      position: {x: -0, y: -0.013778269, z: 0.25110522}
+      rotation: {x: -0.07427273, y: 0.6694178, z: -0.1633039, w: 0.7208989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftArm
+      parentName: VirtualAgent:Labeling:LeftShoulder
+      position: {x: -0, y: 0, z: 0.19708097}
+      rotation: {x: -0.366483, y: 0.59216684, z: -0.07856015, w: 0.71334213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftForeArm
+      parentName: VirtualAgent:Labeling:LeftArm
+      position: {x: -0, y: 0, z: 0.29373893}
+      rotation: {x: -0.11934371, y: -0.016080942, z: -0.13256618, w: 0.98383164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHand
+      parentName: VirtualAgent:Labeling:LeftForeArm
+      position: {x: -0, y: 0, z: 0.21689804}
+      rotation: {x: -0.035689984, y: -0.06307053, z: -0.002256926, w: 0.9973682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandMiddle1
+      parentName: VirtualAgent:Labeling:LeftHand
+      position: {x: -0, y: 0, z: 0.11687933}
+      rotation: {x: 0.03852484, y: 0.3342338, z: -0.013674872, w: 0.94160324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandMiddle2
+      parentName: VirtualAgent:Labeling:LeftHandMiddle1
+      position: {x: -0, y: 0, z: 0.061722763}
+      rotation: {x: 0, y: 0.3081433, z: -0, w: 0.95133996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandMiddle3
+      parentName: VirtualAgent:Labeling:LeftHandMiddle2
+      position: {x: -0, y: 0, z: 0.040271983}
+      rotation: {x: 0, y: 0.28206894, z: -0, w: 0.95939416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandMiddle4
+      parentName: VirtualAgent:Labeling:LeftHandMiddle3
+      position: {x: -0, y: 0, z: 0.02377724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandRing
+      parentName: VirtualAgent:Labeling:LeftHand
+      position: {x: 0.0024455397, y: -0.01285395, z: 0.0024455397}
+      rotation: {x: 0.10703651, y: 0.02332028, z: -0.19787121, w: 0.9740875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandRing1
+      parentName: VirtualAgent:Labeling:LeftHandRing
+      position: {x: -0, y: 0, z: 0.1031332}
+      rotation: {x: -0.28589296, y: 0.37828732, z: 0.12407503, w: 0.8716475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandRing2
+      parentName: VirtualAgent:Labeling:LeftHandRing1
+      position: {x: -0, y: 0, z: 0.057354733}
+      rotation: {x: 0, y: 0.15368648, z: -0, w: 0.98811966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandRing3
+      parentName: VirtualAgent:Labeling:LeftHandRing2
+      position: {x: -0, y: 0, z: 0.039402686}
+      rotation: {x: 0, y: 0.37389246, z: -0, w: 0.9274721}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandRing4
+      parentName: VirtualAgent:Labeling:LeftHandRing3
+      position: {x: -0, y: 0, z: 0.023640592}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandPinky
+      parentName: VirtualAgent:Labeling:LeftHandRing
+      position: {x: 0.0024455397, y: -0.01285395, z: 0.0024455397}
+      rotation: {x: 0.022135803, y: 0.097188815, z: 0.26702508, w: 0.9585207}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandPinky1
+      parentName: VirtualAgent:Labeling:LeftHandPinky
+      position: {x: -0, y: 0, z: 0.086581744}
+      rotation: {x: -0.03824096, y: 0.12851055, z: 0.004959207, w: 0.99095815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandPinky2
+      parentName: VirtualAgent:Labeling:LeftHandPinky1
+      position: {x: -0, y: 0, z: 0.04690237}
+      rotation: {x: 0, y: 0.23233722, z: -0, w: 0.9726353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandPinky3
+      parentName: VirtualAgent:Labeling:LeftHandPinky2
+      position: {x: -0, y: 0, z: 0.029773954}
+      rotation: {x: 0, y: 0.3478558, z: -0, w: 0.9375481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandPinky4
+      parentName: VirtualAgent:Labeling:LeftHandPinky3
+      position: {x: -0, y: 0, z: 0.02180947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandIndex
+      parentName: VirtualAgent:Labeling:LeftHand
+      position: {x: 0.0024455397, y: 0.01285395, z: 0.0024455397}
+      rotation: {x: -0.09723898, y: 0.023745721, z: 0.0630525, w: 0.9929779}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandIndex1
+      parentName: VirtualAgent:Labeling:LeftHandIndex
+      position: {x: -0, y: 0, z: 0.11298225}
+      rotation: {x: 0.18421265, y: 0.20003435, z: -0.038322248, w: 0.9615526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandIndex2
+      parentName: VirtualAgent:Labeling:LeftHandIndex1
+      position: {x: -0, y: 0, z: 0.059913583}
+      rotation: {x: 0, y: 0.36575022, z: -0, w: 0.93071306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandIndex3
+      parentName: VirtualAgent:Labeling:LeftHandIndex2
+      position: {x: -0, y: 0, z: 0.035787128}
+      rotation: {x: 0, y: -0.16849867, z: -0, w: 0.9857019}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandIndex4
+      parentName: VirtualAgent:Labeling:LeftHandIndex3
+      position: {x: -0, y: 0, z: 0.021618158}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandThumb1
+      parentName: VirtualAgent:Labeling:LeftHandIndex
+      position: {x: 0.0073366193, y: 0.01285395, z: 0.0024455397}
+      rotation: {x: -0.15522832, y: 0.12651849, z: -0.5047177, w: 0.83973646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandThumb2
+      parentName: VirtualAgent:Labeling:LeftHandThumb1
+      position: {x: -0, y: 0, z: 0.07361386}
+      rotation: {x: 0.18987155, y: -0.14026831, z: 0.027418487, w: 0.9713505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandThumb3
+      parentName: VirtualAgent:Labeling:LeftHandThumb2
+      position: {x: -0, y: 0, z: 0.049662624}
+      rotation: {x: 0, y: 0.15712512, z: -0, w: 0.9875787}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftHandThumb4
+      parentName: VirtualAgent:Labeling:LeftHandThumb3
+      position: {x: -0, y: 0, z: 0.02961223}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightShoulder
+      parentName: VirtualAgent:Labeling:Spine
+      position: {x: -0, y: -0.013778269, z: 0.25110522}
+      rotation: {x: -0.087400526, y: -0.68020636, z: 0.16518787, w: 0.70879716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightArm
+      parentName: VirtualAgent:Labeling:RightShoulder
+      position: {x: -0, y: 0, z: 0.19708097}
+      rotation: {x: -0.29564208, y: -0.61772645, z: -0.00003282881, w: 0.7287042}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightForeArm
+      parentName: VirtualAgent:Labeling:RightArm
+      position: {x: -0, y: 0, z: 0.29373893}
+      rotation: {x: -0.17674412, y: 0.01349847, z: 0.07494528, w: 0.98130655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHand
+      parentName: VirtualAgent:Labeling:RightForeArm
+      position: {x: -0, y: 0, z: 0.21689804}
+      rotation: {x: 0.062464837, y: 0.108807094, z: -0.006850913, w: 0.9920747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandMiddle1
+      parentName: VirtualAgent:Labeling:RightHand
+      position: {x: -0, y: 0, z: 0.11950491}
+      rotation: {x: 0.035183195, y: -0.3939451, z: 0.015092777, w: 0.9183364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandMiddle2
+      parentName: VirtualAgent:Labeling:RightHandMiddle1
+      position: {x: -0, y: 0, z: 0.063052595}
+      rotation: {x: 0, y: -0.09159751, z: -0, w: 0.9957961}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandMiddle3
+      parentName: VirtualAgent:Labeling:RightHandMiddle2
+      position: {x: -0, y: 0, z: 0.041105974}
+      rotation: {x: 0, y: 0.026702117, z: -0, w: 0.99964345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandMiddle4
+      parentName: VirtualAgent:Labeling:RightHandMiddle3
+      position: {x: -0, y: 0, z: 0.02434202}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandRing
+      parentName: VirtualAgent:Labeling:RightHand
+      position: {x: -0.0024455397, y: -0.012808017, z: 0.0024455397}
+      rotation: {x: 0.10312359, y: -0.029138086, z: 0.152526, w: 0.9824726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandRing1
+      parentName: VirtualAgent:Labeling:RightHandRing
+      position: {x: -0, y: 0, z: 0.10544829}
+      rotation: {x: -0.23753233, y: -0.43185017, z: -0.11901033, w: 0.86192834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandRing2
+      parentName: VirtualAgent:Labeling:RightHandRing1
+      position: {x: -0, y: 0, z: 0.058657955}
+      rotation: {x: 0, y: -0.08470973, z: -0, w: 0.99640566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandRing3
+      parentName: VirtualAgent:Labeling:RightHandRing2
+      position: {x: -0, y: 0, z: 0.040298194}
+      rotation: {x: 0, y: -0.025599346, z: -0, w: 0.9996723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandRing4
+      parentName: VirtualAgent:Labeling:RightHandRing3
+      position: {x: -0, y: 0, z: 0.024202121}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandPinky
+      parentName: VirtualAgent:Labeling:RightHandRing
+      position: {x: -0.0024455397, y: -0.012808017, z: 0.0024455397}
+      rotation: {x: 0.033083346, y: -0.094308086, z: -0.22925332, w: 0.9682223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandPinky1
+      parentName: VirtualAgent:Labeling:RightHandPinky
+      position: {x: -0, y: 0, z: 0.08864272}
+      rotation: {x: -0.04362746, y: -0.21837014, z: -0.0097728055, w: 0.97484136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandPinky2
+      parentName: VirtualAgent:Labeling:RightHandPinky1
+      position: {x: -0, y: 0, z: 0.047937203}
+      rotation: {x: 0, y: -0.16545127, z: -0, w: 0.986218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandPinky3
+      parentName: VirtualAgent:Labeling:RightHandPinky2
+      position: {x: -0, y: 0, z: 0.030511908}
+      rotation: {x: 0, y: -0.19513156, z: -0, w: 0.9807771}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandPinky4
+      parentName: VirtualAgent:Labeling:RightHandPinky3
+      position: {x: -0, y: 0, z: 0.022327507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandIndex
+      parentName: VirtualAgent:Labeling:RightHand
+      position: {x: -0.0024455397, y: 0.012808017, z: 0.0024455397}
+      rotation: {x: -0.097139865, y: -0.018018039, z: -0.063135535, w: 0.9931028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandIndex1
+      parentName: VirtualAgent:Labeling:RightHandIndex
+      position: {x: -0, y: 0, z: 0.11555247}
+      rotation: {x: 0.1595092, y: -0.28239444, z: 0.04767918, w: 0.9447417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandIndex2
+      parentName: VirtualAgent:Labeling:RightHandIndex1
+      position: {x: -0, y: 0, z: 0.061220985}
+      rotation: {x: 0, y: -0.18283217, z: -0, w: 0.98314416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandIndex3
+      parentName: VirtualAgent:Labeling:RightHandIndex2
+      position: {x: -0, y: 0, z: 0.036615446}
+      rotation: {x: 0, y: 0.28833097, z: -0, w: 0.95753086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandIndex4
+      parentName: VirtualAgent:Labeling:RightHandIndex3
+      position: {x: -0, y: 0, z: 0.02213165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandThumb1
+      parentName: VirtualAgent:Labeling:RightHandIndex
+      position: {x: -0.0073366193, y: 0.012808017, z: 0.0024455397}
+      rotation: {x: -0.15516914, y: -0.1503041, z: 0.5088426, w: 0.8333129}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandThumb2
+      parentName: VirtualAgent:Labeling:RightHandThumb1
+      position: {x: -0, y: 0, z: 0.075609714}
+      rotation: {x: 0.17900352, y: 0.074337885, z: -0.0135652665, w: 0.98094225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandThumb3
+      parentName: VirtualAgent:Labeling:RightHandThumb2
+      position: {x: -0, y: 0, z: 0.050746325}
+      rotation: {x: 0, y: -0.1485826, z: -0, w: 0.9889}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightHandThumb4
+      parentName: VirtualAgent:Labeling:RightHandThumb3
+      position: {x: -0, y: 0, z: 0.030315606}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftUpLeg
+      parentName: VirtualAgent:Labeling:Hips
+      position: {x: 0.09544148, y: 0, z: 0}
+      rotation: {x: -0.17095877, y: -0.035040364, z: 0.05360961, w: 0.9831945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftLeg
+      parentName: VirtualAgent:Labeling:LeftUpLeg
+      position: {x: -0, y: 0, z: -0.42301753}
+      rotation: {x: 0.13126765, y: -0, z: -0, w: 0.991347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftFoot
+      parentName: VirtualAgent:Labeling:LeftLeg
+      position: {x: -0, y: 0, z: -0.40560374}
+      rotation: {x: -0.17735952, y: 0.03987696, z: -0.110876724, w: 0.97706693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftToeBase
+      parentName: VirtualAgent:Labeling:LeftFoot
+      position: {x: -0, y: 0.14232698, z: 0}
+      rotation: {x: 0.30327442, y: -0, z: -0, w: 0.9529033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:LeftToeEnd
+      parentName: VirtualAgent:Labeling:LeftToeBase
+      position: {x: -0, y: 0.074858174, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightUpLeg
+      parentName: VirtualAgent:Labeling:Hips
+      position: {x: -0.09544148, y: 0, z: 0}
+      rotation: {x: -0.1613117, y: -0.0129507035, z: 0.0043078307, w: 0.98680913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightLeg
+      parentName: VirtualAgent:Labeling:RightUpLeg
+      position: {x: -0, y: 0, z: -0.42301753}
+      rotation: {x: 0.15756059, y: -0, z: -0, w: 0.9875093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightFoot
+      parentName: VirtualAgent:Labeling:RightLeg
+      position: {x: -0, y: 0, z: -0.40560374}
+      rotation: {x: -0.2478254, y: 0.067659274, z: 0.15573429, w: 0.953809}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightToeBase
+      parentName: VirtualAgent:Labeling:RightFoot
+      position: {x: -0, y: 0.14232698, z: 0}
+      rotation: {x: 0.32445657, y: -0, z: -0, w: 0.9459006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Labeling:RightToeEnd
+      parentName: VirtualAgent:Labeling:RightToeBase
+      position: {x: -0, y: 0.074858174, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving
+      parentName: VirtualAgent
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Position
+      parentName: VirtualAgent:Solving
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Hips
+      parentName: VirtualAgent
+      position: {x: -0.0000000037252903, y: 0.9195954, z: 0.16153194}
+      rotation: {x: 0.007913581, y: 0.73029697, z: 0.68264776, w: -0.024406781}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Spine
+      parentName: VirtualAgent:Solving:Hips
+      position: {x: -0, y: 0, z: 0.109113455}
+      rotation: {x: 0.0985677, y: 0.0021091222, z: 0.00469166, w: 0.99511707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Spine1
+      parentName: VirtualAgent:Solving:Spine
+      position: {x: -0, y: 0, z: 0.109113455}
+      rotation: {x: -0.03216445, y: 0.0027034632, z: 0.0043762266, w: 0.99946934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Spine2
+      parentName: VirtualAgent:Solving:Spine1
+      position: {x: -0, y: 0, z: 0.109113455}
+      rotation: {x: -0.09916133, y: -0.006536292, z: 0.0047773896, w: 0.99503845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Spine3
+      parentName: VirtualAgent:Solving:Spine2
+      position: {x: -0, y: 0, z: 0.109113455}
+      rotation: {x: -0.055663962, y: -0.006738458, z: 0.0044877334, w: 0.9984167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Neck
+      parentName: VirtualAgent:Solving:Spine3
+      position: {x: -0, y: 0.014028873, z: 0.14028873}
+      rotation: {x: -0.043542165, y: -0.0042508277, z: 0.009680583, w: 0.99899566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Neck1
+      parentName: VirtualAgent:Solving:Neck
+      position: {x: -0, y: 0, z: 0.040914558}
+      rotation: {x: -0.035559576, y: 0.0012714387, z: 0.009439406, w: 0.9993222}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:Head
+      parentName: VirtualAgent:Solving:Neck1
+      position: {x: -0, y: 0, z: 0.040914558}
+      rotation: {x: 0.10610858, y: 0.00759939, z: 0.010186393, w: 0.99427336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:HeadEnd
+      parentName: VirtualAgent:Solving:Head
+      position: {x: -0, y: 0, z: 0.088791}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightShoulder
+      parentName: VirtualAgent:Solving:Spine3
+      position: {x: -0, y: 0, z: 0.09820211}
+      rotation: {x: -0.013820959, y: -0.81317306, z: -0.009888021, w: 0.5817738}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightArm
+      parentName: VirtualAgent:Solving:RightShoulder
+      position: {x: -0, y: 0, z: 0.17785494}
+      rotation: {x: 0.04315266, y: 0.15518495, z: 0.1433107, w: 0.9764823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightForeArm
+      parentName: VirtualAgent:Solving:RightArm
+      position: {x: -0, y: 0, z: 0.29430333}
+      rotation: {x: -0.028964587, y: 0.008560656, z: 0.027638357, w: 0.9991616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHand
+      parentName: VirtualAgent:Solving:RightForeArm
+      position: {x: -0, y: 0, z: 0.23373394}
+      rotation: {x: 0.06480762, y: 0.048219703, z: -0.0031352658, w: 0.99672717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandMiddle1
+      parentName: VirtualAgent:Solving:RightHand
+      position: {x: -0, y: 0, z: 0.11942869}
+      rotation: {x: 0.00014092773, y: -0.07002508, z: 0.00025712582, w: 0.99754524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandMiddle2
+      parentName: VirtualAgent:Solving:RightHandMiddle1
+      position: {x: -0, y: 0, z: 0.06317835}
+      rotation: {x: -0.00000039175197, y: -0.031241443, z: -0.00000005429045, w: 0.99951184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandMiddle3
+      parentName: VirtualAgent:Solving:RightHandMiddle2
+      position: {x: -0, y: 0, z: 0.04123589}
+      rotation: {x: 0.0000011795312, y: -0.035707805, z: 0.00000007366592, w: 0.99936235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandMiddle4
+      parentName: VirtualAgent:Solving:RightHandMiddle3
+      position: {x: -0, y: 0, z: 0.024473874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandRing
+      parentName: VirtualAgent:Solving:RightHand
+      position: {x: -0.0024455397, y: -0.011702266, z: 0.0024455397}
+      rotation: {x: 0.060353253, y: -0.014796457, z: -0.08728131, w: 0.99424374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandRing1
+      parentName: VirtualAgent:Solving:RightHandRing
+      position: {x: -0, y: 0, z: 0.10559573}
+      rotation: {x: -0.048846036, y: -0.06048184, z: -0.015877606, w: 0.996847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandRing2
+      parentName: VirtualAgent:Solving:RightHandRing1
+      position: {x: -0, y: 0, z: 0.05876654}
+      rotation: {x: 0.00000020116565, y: -0.027789835, z: -0.000000013038514, w: 0.9996138}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandRing3
+      parentName: VirtualAgent:Solving:RightHandRing2
+      position: {x: -0, y: 0, z: 0.040212546}
+      rotation: {x: -0.0000004273208, y: -0.037191622, z: 0.00000002261619, w: 0.99930817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandRing4
+      parentName: VirtualAgent:Solving:RightHandRing3
+      position: {x: -0, y: 0, z: 0.024333218}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandPinky
+      parentName: VirtualAgent:Solving:RightHandRing
+      position: {x: -0.0024455397, y: -0.011702266, z: 0.0024455397}
+      rotation: {x: 0.065816306, y: -0.018174894, z: -0.07451, w: 0.99487996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandPinky1
+      parentName: VirtualAgent:Solving:RightHandPinky
+      position: {x: -0, y: 0, z: 0.08854531}
+      rotation: {x: -0.089180596, y: -0.049120273, z: -0.014306376, w: 0.9947007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandPinky2
+      parentName: VirtualAgent:Solving:RightHandPinky1
+      position: {x: -0, y: 0, z: 0.04807975}
+      rotation: {x: -0.0000009685753, y: -0.030620039, z: -0.00000017229463, w: 0.99953115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandPinky3
+      parentName: VirtualAgent:Solving:RightHandPinky2
+      position: {x: -0, y: 0, z: 0.03096897}
+      rotation: {x: -0.0000007005038, y: -0.034304135, z: 0.00000007476995, w: 0.99941146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandPinky4
+      parentName: VirtualAgent:Solving:RightHandPinky3
+      position: {x: -0, y: 0, z: 0.02244845}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandIndex
+      parentName: VirtualAgent:Solving:RightHand
+      position: {x: -0.0024455397, y: 0.011702266, z: 0.0024455397}
+      rotation: {x: -0.10277411, y: 0.000016122978, z: -0.06895027, w: 0.99231213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandIndex1
+      parentName: VirtualAgent:Solving:RightHandIndex
+      position: {x: -0, y: 0, z: 0.11603172}
+      rotation: {x: -0.22725813, y: 0.100198574, z: -0.017551681, w: 0.96850705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandIndex2
+      parentName: VirtualAgent:Solving:RightHandIndex1
+      position: {x: -0, y: 0, z: 0.061496437}
+      rotation: {x: 0.00000013411042, y: -0.027429603, z: -0.00000022165472, w: 0.99962384}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandIndex3
+      parentName: VirtualAgent:Solving:RightHandIndex2
+      position: {x: -0, y: 0, z: 0.036822405}
+      rotation: {x: 0.0000020362218, y: -0.039605644, z: 5.0774135e-10, w: 0.9992154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandIndex4
+      parentName: VirtualAgent:Solving:RightHandIndex3
+      position: {x: -0, y: 0, z: 0.022251533}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandThumb1
+      parentName: VirtualAgent:Solving:RightHandIndex
+      position: {x: -0.0073366193, y: 0.011702266, z: 0.0024455397}
+      rotation: {x: -0.19065231, y: -0.10012373, z: 0.54306, w: 0.81161124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandThumb2
+      parentName: VirtualAgent:Solving:RightHandThumb1
+      position: {x: -0, y: 0, z: 0.076869525}
+      rotation: {x: 0.21235183, y: -0.049957085, z: -0.016746242, w: 0.97577184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandThumb3
+      parentName: VirtualAgent:Solving:RightHandThumb2
+      position: {x: -0, y: 0, z: 0.050721444}
+      rotation: {x: -0.000000029802312, y: -0.04138191, z: 0.00000009313222, w: 0.9991434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightHandThumb4
+      parentName: VirtualAgent:Solving:RightHandThumb3
+      position: {x: -0, y: 0, z: 0.030479819}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftShoulder
+      parentName: VirtualAgent:Solving:Spine3
+      position: {x: -0, y: 0, z: 0.09820211}
+      rotation: {x: -0.05529654, y: 0.80906135, z: 0.038741324, w: 0.5838331}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftArm
+      parentName: VirtualAgent:Solving:LeftShoulder
+      position: {x: -0, y: 0, z: 0.17785494}
+      rotation: {x: 0.09493172, y: -0.123018794, z: -0.23536406, w: 0.9594051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftForeArm
+      parentName: VirtualAgent:Solving:LeftArm
+      position: {x: -0, y: 0, z: 0.29430333}
+      rotation: {x: -0.02611056, y: -0.009487577, z: -0.07709196, w: 0.99663687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHand
+      parentName: VirtualAgent:Solving:LeftForeArm
+      position: {x: -0, y: 0, z: 0.23373394}
+      rotation: {x: -0.012552342, y: -0.02017249, z: -0.0002532835, w: 0.9997177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandMiddle1
+      parentName: VirtualAgent:Solving:LeftHand
+      position: {x: -0, y: 0, z: 0.11738535}
+      rotation: {x: 0.009862252, y: 0.07251957, z: -0.010521301, w: 0.9972628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandMiddle2
+      parentName: VirtualAgent:Solving:LeftHandMiddle1
+      position: {x: -0, y: 0, z: 0.06220414}
+      rotation: {x: 0.0000009620561, y: 0.02759331, z: -0.00000002828892, w: 0.99961925}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandMiddle3
+      parentName: VirtualAgent:Solving:LeftHandMiddle2
+      position: {x: -0, y: 0, z: 0.040565778}
+      rotation: {x: 0.000003058599, y: 0.035131775, z: 0.00000056278947, w: 0.99938273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandMiddle4
+      parentName: VirtualAgent:Solving:LeftHandMiddle3
+      position: {x: -0, y: 0, z: 0.024083788}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandRing
+      parentName: VirtualAgent:Solving:LeftHand
+      position: {x: 0.0024455397, y: -0.011562434, z: 0.0024455397}
+      rotation: {x: 0.056896023, y: 0.0024089627, z: 0.046197735, w: 0.9973078}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandRing1
+      parentName: VirtualAgent:Solving:LeftHandRing
+      position: {x: -0, y: 0, z: 0.10384571}
+      rotation: {x: -0.03867328, y: 0.07261458, z: 0.008509324, w: 0.99657375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandRing2
+      parentName: VirtualAgent:Solving:LeftHandRing1
+      position: {x: -0, y: 0, z: 0.057815574}
+      rotation: {x: 0.00000077486027, y: 0.026421633, z: -0.00000023515892, w: 0.9996509}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandRing3
+      parentName: VirtualAgent:Solving:LeftHandRing2
+      position: {x: -0, y: 0, z: 0.039439823}
+      rotation: {x: 0.0000015900769, y: 0.036178786, z: 0.00000016475673, w: 0.99934536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandRing4
+      parentName: VirtualAgent:Solving:LeftHandRing3
+      position: {x: -0, y: 0, z: 0.023945374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandPinky
+      parentName: VirtualAgent:Solving:LeftHandRing
+      position: {x: 0.0024455397, y: -0.011562434, z: 0.0024455397}
+      rotation: {x: 0.07104336, y: 0.016578358, z: 0.0775592, w: 0.99431515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandPinky1
+      parentName: VirtualAgent:Solving:LeftHandPinky
+      position: {x: -0, y: 0, z: 0.08704674}
+      rotation: {x: -0.07384037, y: 0.053208552, z: 0.0085138045, w: 0.9958133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandPinky2
+      parentName: VirtualAgent:Solving:LeftHandPinky1
+      position: {x: -0, y: 0, z: 0.04727301}
+      rotation: {x: 0.0000005140899, y: 0.02797882, z: 0.000000026542684, w: 0.9996085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandPinky3
+      parentName: VirtualAgent:Solving:LeftHandPinky2
+      position: {x: -0, y: 0, z: 0.03035499}
+      rotation: {x: 0.0000005541747, y: 0.031146318, z: -0.000000054997862, w: 0.9995149}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandPinky4
+      parentName: VirtualAgent:Solving:LeftHandPinky3
+      position: {x: -0, y: 0, z: 0.022090647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandIndex
+      parentName: VirtualAgent:Solving:LeftHand
+      position: {x: 0.0024455397, y: 0.011562434, z: 0.0024455397}
+      rotation: {x: -0.082079425, y: 0.006972309, z: 0.04688972, w: 0.99549776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandIndex1
+      parentName: VirtualAgent:Solving:LeftHandIndex
+      position: {x: -0, y: 0, z: 0.11410679}
+      rotation: {x: 0.015382741, y: 0.024294773, z: -0.040721867, w: 0.99875665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandIndex2
+      parentName: VirtualAgent:Solving:LeftHandIndex1
+      position: {x: -0, y: 0, z: 0.060482793}
+      rotation: {x: 0.0000019138677, y: 0.025245845, z: 0.0000003247405, w: 0.99968123}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandIndex3
+      parentName: VirtualAgent:Solving:LeftHandIndex2
+      position: {x: -0, y: 0, z: 0.036166117}
+      rotation: {x: 0, y: 0.11008385, z: -0, w: 0.9939223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandIndex4
+      parentName: VirtualAgent:Solving:LeftHandIndex3
+      position: {x: -0, y: 0, z: 0.021896869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandThumb1
+      parentName: VirtualAgent:Solving:LeftHandIndex
+      position: {x: 0.0073366193, y: 0.011562434, z: 0.0024455397}
+      rotation: {x: -0.1918802, y: 0.08705241, z: -0.5319432, w: 0.8201465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandThumb2
+      parentName: VirtualAgent:Solving:LeftHandThumb1
+      position: {x: -0, y: 0, z: 0.07527807}
+      rotation: {x: 0.14663275, y: -0.04377018, z: 0.0064947745, w: 0.9882008}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandThumb3
+      parentName: VirtualAgent:Solving:LeftHandThumb2
+      position: {x: -0, y: 0, z: 0.049861975}
+      rotation: {x: 0, y: 0.0589079, z: -0, w: 0.9982634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftHandThumb4
+      parentName: VirtualAgent:Solving:LeftHandThumb3
+      position: {x: -0, y: 0, z: 0.029994003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightUpLeg
+      parentName: VirtualAgent:Solving:Hips
+      position: {x: -0.104384124, y: 0, z: 0}
+      rotation: {x: -0.11413091, y: -0.0038253493, z: 0.015027374, w: 0.99334466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightLeg
+      parentName: VirtualAgent:Solving:RightUpLeg
+      position: {x: -0, y: 0, z: -0.42483822}
+      rotation: {x: 0.16050805, y: -0, z: -0, w: 0.98703456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightFoot
+      parentName: VirtualAgent:Solving:RightLeg
+      position: {x: -0, y: 0, z: -0.40964717}
+      rotation: {x: -0.25001666, y: 0.07831787, z: 0.16330467, w: 0.95115167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightToeBase
+      parentName: VirtualAgent:Solving:RightFoot
+      position: {x: -0, y: 0.14004336, z: 0}
+      rotation: {x: 0.19545592, y: -0, z: -0, w: 0.98071253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:RightToeBaseEnd
+      parentName: VirtualAgent:Solving:RightToeBase
+      position: {x: -0, y: 0.06563137, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftUpLeg
+      parentName: VirtualAgent:Solving:Hips
+      position: {x: 0.104384124, y: 0, z: 0}
+      rotation: {x: -0.115651116, y: -0.018753195, z: 0.036479145, w: 0.99244267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftLeg
+      parentName: VirtualAgent:Solving:LeftUpLeg
+      position: {x: -0, y: 0, z: -0.42483822}
+      rotation: {x: 0.12802869, y: -0, z: -0, w: 0.9917705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftFoot
+      parentName: VirtualAgent:Solving:LeftLeg
+      position: {x: -0, y: 0, z: -0.40964717}
+      rotation: {x: -0.18531193, y: 0.027663136, z: -0.085813336, w: 0.9785348}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftToeBase
+      parentName: VirtualAgent:Solving:LeftFoot
+      position: {x: -0, y: 0.14004336, z: 0}
+      rotation: {x: 0.17267077, y: -0, z: -0, w: 0.9849796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:Solving:LeftToeBaseEnd
+      parentName: VirtualAgent:Solving:LeftToeBase
+      position: {x: -0, y: 0.07118461, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:ARIEL
+      parentName: VirtualAgent
+      position: {x: -0.062496074, y: 1.7762885, z: 0.12760204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LFHD
+      parentName: VirtualAgent
+      position: {x: -0.13542701, y: 1.7030314, z: 0.23881964}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LBHD
+      parentName: VirtualAgent
+      position: {x: -0.12531026, y: 1.6450714, z: 0.08712041}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RFHD
+      parentName: VirtualAgent
+      position: {x: 0.019935403, y: 1.7182912, z: 0.21724728}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RBHD
+      parentName: VirtualAgent
+      position: {x: 0.015864948, y: 1.63455, z: 0.087833986}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:C7
+      parentName: VirtualAgent
+      position: {x: -0.066492654, y: 1.4922193, z: 0.032448314}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:T10
+      parentName: VirtualAgent
+      position: {x: -0.056090977, y: 1.2586879, z: 0.006666965}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:CLAV
+      parentName: VirtualAgent
+      position: {x: -0.046096485, y: 1.4136506, z: 0.21282881}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:STRN
+      parentName: VirtualAgent
+      position: {x: -0.02833726, y: 1.1717292, z: 0.28926563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LFSH
+      parentName: VirtualAgent
+      position: {x: -0.18876927, y: 1.4139892, z: 0.20639294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LBSH
+      parentName: VirtualAgent
+      position: {x: -0.2073899, y: 1.4182603, z: 0.025115501}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LUPA
+      parentName: VirtualAgent
+      position: {x: -0.31441832, y: 1.2714771, z: 0.15023835}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LELB
+      parentName: VirtualAgent
+      position: {x: -0.327685, y: 1.1347755, z: 0.15520622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LIEL
+      parentName: VirtualAgent
+      position: {x: -0.22842121, y: 1.1053598, z: 0.10587589}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LFRM
+      parentName: VirtualAgent
+      position: {x: -0.32640666, y: 1.004515, z: 0.19058326}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LIWR
+      parentName: VirtualAgent
+      position: {x: -0.23071979, y: 0.8802459, z: 0.24588512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LOWR
+      parentName: VirtualAgent
+      position: {x: -0.30603766, y: 0.8474732, z: 0.18552078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LIHAND
+      parentName: VirtualAgent
+      position: {x: -0.24353483, y: 0.79796576, z: 0.27811614}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LOHAND
+      parentName: VirtualAgent
+      position: {x: -0.3030449, y: 0.78717136, z: 0.2233905}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LTHM3
+      parentName: VirtualAgent
+      position: {x: -0.1834744, y: 0.7943749, z: 0.28423274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LIDX3
+      parentName: VirtualAgent
+      position: {x: -0.21620943, y: 0.6990033, z: 0.26415762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LPNK3
+      parentName: VirtualAgent
+      position: {x: -0.28461364, y: 0.712771, z: 0.20935325}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RFSH
+      parentName: VirtualAgent
+      position: {x: 0.08610104, y: 1.41785, z: 0.18354984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RBSH
+      parentName: VirtualAgent
+      position: {x: 0.096855246, y: 1.4206914, z: 0.007938429}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RUPA
+      parentName: VirtualAgent
+      position: {x: 0.20936029, y: 1.2647998, z: 0.11210377}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RELB
+      parentName: VirtualAgent
+      position: {x: 0.23934102, y: 1.1253232, z: 0.11371154}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RIEL
+      parentName: VirtualAgent
+      position: {x: 0.1330292, y: 1.1111788, z: 0.06434191}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RFRM
+      parentName: VirtualAgent
+      position: {x: 0.246523, y: 0.97919905, z: 0.15193295}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RIWR
+      parentName: VirtualAgent
+      position: {x: 0.17801234, y: 0.89948016, z: 0.22878736}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:ROWR
+      parentName: VirtualAgent
+      position: {x: 0.22950888, y: 0.87640524, z: 0.14810783}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RIHAND
+      parentName: VirtualAgent
+      position: {x: 0.2279547, y: 0.81290114, z: 0.25179204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:ROHAND
+      parentName: VirtualAgent
+      position: {x: 0.24163364, y: 0.820752, z: 0.17163388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RTHM3
+      parentName: VirtualAgent
+      position: {x: 0.1768043, y: 0.7913975, z: 0.2863945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RIDX3
+      parentName: VirtualAgent
+      position: {x: 0.2050321, y: 0.7145667, z: 0.25989524}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RPNK3
+      parentName: VirtualAgent
+      position: {x: 0.21660548, y: 0.7220557, z: 0.16769983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LFWT
+      parentName: VirtualAgent
+      position: {x: -0.18636905, y: 0.98329556, z: 0.23564175}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:MFWT
+      parentName: VirtualAgent
+      position: {x: -0.035464138, y: 0.97450346, z: 0.28579217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RFWT
+      parentName: VirtualAgent
+      position: {x: 0.08724199, y: 0.9954616, z: 0.2425282}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LBWT
+      parentName: VirtualAgent
+      position: {x: -0.18707106, y: 1.0208569, z: 0.062311906}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:MBWT
+      parentName: VirtualAgent
+      position: {x: -0.04594868, y: 1.032769, z: 0.021909168}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RBWT
+      parentName: VirtualAgent
+      position: {x: 0.08629219, y: 1.0313225, z: 0.04505898}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LTHI
+      parentName: VirtualAgent
+      position: {x: -0.20805319, y: 0.76766765, z: 0.22178283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LKNE
+      parentName: VirtualAgent
+      position: {x: -0.21817634, y: 0.52275985, z: 0.13288039}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LKNI
+      parentName: VirtualAgent
+      position: {x: -0.0865282, y: 0.51980084, z: 0.11792187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LSHN
+      parentName: VirtualAgent
+      position: {x: -0.2247795, y: 0.4078887, z: 0.12481656}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LANK
+      parentName: VirtualAgent
+      position: {x: -0.2098869, y: 0.17685796, z: 0.1062815}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LHEL
+      parentName: VirtualAgent
+      position: {x: -0.12318765, y: 0.05918336, z: 0.016382748}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LMT5
+      parentName: VirtualAgent
+      position: {x: -0.23990196, y: 0.051845726, z: 0.24537842}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LMT1
+      parentName: VirtualAgent
+      position: {x: -0.10202797, y: 0.05415282, z: 0.25447825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:LTOE
+      parentName: VirtualAgent
+      position: {x: -0.17957993, y: 0.07494424, z: 0.31708324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RTHI
+      parentName: VirtualAgent
+      position: {x: 0.13641746, y: 0.7250625, z: 0.18937364}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RKNE
+      parentName: VirtualAgent
+      position: {x: 0.1286936, y: 0.5347299, z: 0.13472944}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RKNI
+      parentName: VirtualAgent
+      position: {x: -0.005417712, y: 0.5300779, z: 0.12482392}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RSHN
+      parentName: VirtualAgent
+      position: {x: 0.14992592, y: 0.37016338, z: 0.113002285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RANK
+      parentName: VirtualAgent
+      position: {x: 0.13512549, y: 0.19154073, z: 0.08566265}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RHEL
+      parentName: VirtualAgent
+      position: {x: 0.0655787, y: 0.06826857, z: 0.03277729}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RMT5
+      parentName: VirtualAgent
+      position: {x: 0.18682104, y: 0.069213815, z: 0.2342812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RMT1
+      parentName: VirtualAgent
+      position: {x: 0.06416843, y: 0.043438863, z: 0.28618184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VirtualAgent:RTOE
+      parentName: VirtualAgent
+      position: {x: 0.13869262, y: 0.07514405, z: 0.32152873}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers
+      parentName: Standing_Phone_001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 4.3297803e-17, y: 0.7071068, z: 0.7071068, w: -1.2989342e-16}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

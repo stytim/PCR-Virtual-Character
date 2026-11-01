@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: b4856893e0f7c094b98ba68f15e9d578
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 0
+    generateMipMaps: 1
+    texturesReadable: 1
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\convenience_store_2\scene.bin
+    assetPath: Assets\convenience_store_2\scene.bin
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_specularf0.png
+    assetPath: Assets\convenience_store_2\textures\material_specularf0.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Metal_Aluminum_Anodized_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Metal_Aluminum_Anodized_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Tiles_14_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\Tiles_14_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_1_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\material_1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\0048_PaleGoldenrod_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\0048_PaleGoldenrod_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Wood_Veneer_01_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Wood_Veneer_01_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_27_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\material_27_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Stained_Mahogany_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Stained_Mahogany_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\04b368b67c2983f2b0ee3ccdcb877bce_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\04b368b67c2983f2b0ee3ccdcb877bce_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\1574e17b8bc28c2fef740baa78245167_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\1574e17b8bc28c2fef740baa78245167_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Plastic_03_1_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\Plastic_03_1_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Plastic_02_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\Plastic_02_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\IMG_0272_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\IMG_0272_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_2_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_2_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Wood_14_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\Wood_14_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_95_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\material_95_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_5_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\material_5_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Screen-Texture-500x336_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Screen-Texture-500x336_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_95_0_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\material_95_0_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_1_2_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_1_2_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273233647-10605a9b2d_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273233647-10605a9b2d_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273233647-10605a9b2d_3_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273233647-10605a9b2d_3_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533327-d11c36a448_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533327-d11c36a448_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273233644-a2de45ef1a_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273233644-a2de45ef1a_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1284772046-90d2dfa511_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1284772046-90d2dfa511_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1284771686-9f77b0ac0b_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1284771686-9f77b0ac0b_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1283350726-0404b06c51_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1283350726-0404b06c51_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273237971-089563274e_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273237971-089563274e_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533322-f89d07ba45_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533322-f89d07ba45_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533463-f90eaad89c_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533463-f90eaad89c_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533229-eac8de5001_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533229-eac8de5001_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1284782645-0050d90b1d_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1284782645-0050d90b1d_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1283350232-36463e33b2_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1283350232-36463e33b2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273236125-12649b4520_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273236125-12649b4520_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533251-89ca6c3f11_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533251-89ca6c3f11_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1275036547-af22836f36_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1275036547-af22836f36_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301619622-ad560c738f_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301619622-ad560c738f_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1283562663-0890c3b842_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1283562663-0890c3b842_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533243-a9bc7937bc_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533243-a9bc7937bc_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1283349973-f9f48600e5_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1283349973-f9f48600e5_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273242807-2dd995c699_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273242807-2dd995c699_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1283573185-1fe00f6544_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1283573185-1fe00f6544_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533418-442098a9fd_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533418-442098a9fd_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273236147-5a20043521_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273236147-5a20043521_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1283350612-2a51762ed2_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1283350612-2a51762ed2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533277-58bc26e576_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533277-58bc26e576_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_68_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\material_68_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1301533462-d2dc75e4d9_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1301533462-d2dc75e4d9_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\260x260-1273237619-333ff6fc8f_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\260x260-1273237619-333ff6fc8f_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Wood_Bamboo_Medium_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Wood_Bamboo_Medium_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Wood_Bamboo_Medium_4_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Wood_Bamboo_Medium_4_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Translucent_Glass_Tinted_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Translucent_Glass_Tinted_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Wood_43_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Wood_43_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Veneer_B01_120cm_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Veneer_B01_120cm_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Veneer_C02_120cm_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Veneer_C02_120cm_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_9_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_9_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Concrete_Block_8x8_Gray_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Concrete_Block_8x8_Gray_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\muhlen-EU-2480-yazar-kasa-para-cekmecesi-1_2_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\muhlen-EU-2480-yazar-kasa-para-cekmecesi-1_2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_13_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\material_13_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_12_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_12_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\a9182c02-a243-4295-a6f7-8a1cfa1777b5_2_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\a9182c02-a243-4295-a6f7-8a1cfa1777b5_2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\PJ-BJ336_29ptec_G_20120828175227_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\PJ-BJ336_29ptec_G_20120828175227_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Marble-Texture-4_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Marble-Texture-4_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Metal_Corrogated_Shiny_6_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Metal_Corrogated_Shiny_6_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Metal_Grate3_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Metal_Grate3_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\Untitled-1_1_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\Untitled-1_1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_3_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_3_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\pepsi_machine_logo_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\pepsi_machine_logo_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_4_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_4_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\pepsi_spout_label_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\pepsi_spout_label_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\diet_pepsi_spout_label_baseColor.jpeg
+    assetPath: Assets\convenience_store_2\textures\diet_pepsi_spout_label_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_5_6_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_5_6_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_7_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_7_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_8_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_8_baseColor.png
+  - type: 1
+    originalUri: Assets\convenience_store_2\textures\material_9_10_baseColor.png
+    assetPath: Assets\convenience_store_2\textures\material_9_10_baseColor.png
+  reportItems:
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_specular

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/HumanControl.unity
+    guid: 5c71c2e27e3d78249aaf16e45dc3821a
+  - enabled: 0
+    path: Assets/Scenes/AIControl.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/MedicalAR Tutor.unity
+    guid: a2ae5e244af784eac8f6d12bcf789296
+  - enabled: 0
+    path: Assets/Scenes/AllControl.unity
+    guid: ab85fcf89c8d240fd9f6af6559b125f6
+  - enabled: 0
+    path: Assets/Scenes/AIControl_Exercise.unity
+    guid: aa5eacb25df1da24bbc467b37ac913f4
+  - enabled: 0
+    path: Assets/Scenes/MainScene.unity
+    guid: dbaa497f2af47824a859717a1c732bd1
+  - enabled: 1
+    path: Assets/Scenes/figure.unity
+    guid: 3e06ab3ace3d948e3a4271408375b852
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f58e714636b4e4121910e83cc62572d3, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 713d51607e59040f5bbd3b63ba9b0b54, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 125179a1bb421f740b148e8969dab1e9, type: 2}
+  m_UseUCBPForAssetBundles: 0

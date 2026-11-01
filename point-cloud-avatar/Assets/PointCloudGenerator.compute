@@ -1,0 +1,106 @@
+#pragma kernel CSMain
+#pragma kernel CSMeshIndices
+
+struct Point
+{
+    float3 position;
+    float4 color;
+};
+
+// --- Buffers and Textures
+Texture2D<float4> _ColorTexture;
+Texture2D<float> _DepthTexture;
+RWStructuredBuffer<Point> _PointsBuffer;
+RWStructuredBuffer<int> _IndicesBuffer;
+
+// Replaced Matrix with explicit projection params
+float _FarPlane;
+float _P00;
+float _P11;
+float _MaxDepth; // New cutoff uniform
+uint _TextureWidth;
+
+// --- KERNEL 1: Point Generation (Unchanged)
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    float depthVal = _DepthTexture.Load(int3(id.xy, 0)); // 0-1 linear depth
+    float4 color = _ColorTexture.Load(int3(id.xy, 0));
+    Point p;
+    p.position = float3(0, 0, 0);
+    p.color = float4(0, 0, 0, 0);
+
+    // Filter background (assuming 1.0 is far plane/background)
+    // AND check against our custom slider distance
+    float z = depthVal * _FarPlane;
+    
+    if (depthVal < 0.99 && z <= _MaxDepth)
+    {
+        // Reconstruct X and Y in View Space
+        // uv ranges from 0 to 1.
+        // We want (uv * 2 - 1) which provides -1 to 1 range.
+        // X = (uv.x * 2 - 1) * Z / P00
+        // Y = (uv.y * 2 - 1) * Z / P11
+        
+        float2 uv = float2((id.x + 0.5) / (float)_TextureWidth, (id.y + 0.5) / (float)_TextureWidth);
+        float x = (uv.x * 2.0 - 1.0) * z / _P00;
+        float y = (uv.y * 2.0 - 1.0) * z / _P11;
+        
+        p.position = float3(x, y, z);
+        p.color = color;
+    }
+    
+    uint index = id.y * _TextureWidth + id.x;
+    _PointsBuffer[index] = p;
+}
+
+
+// --- KERNEL 2: Mesh Index Generation (IMPROVED LOGIC)
+[numthreads(8,8,1)]
+void CSMeshIndices(uint3 id : SV_DispatchThreadID)
+{
+    // Exit if we are at the last row or column.
+    if (id.x >= _TextureWidth - 1 || id.y >= _TextureWidth - 1)
+    {
+        return;
+    }
+
+    // Get the linear indices of the four points of the current quad
+    uint i00 = id.y * _TextureWidth + id.x;         // Top-left
+    uint i10 = id.y * _TextureWidth + (id.x + 1);   // Top-right
+    uint i01 = (id.y + 1) * _TextureWidth + id.x;   // Bottom-left
+    uint i11 = (id.y + 1) * _TextureWidth + (id.x + 1); // Bottom-right
+
+    // Load depth values for the four points
+    float d00 = _DepthTexture.Load(int3(id.x,     id.y,     0));
+    float d10 = _DepthTexture.Load(int3(id.x + 1, id.y,     0));
+    float d01 = _DepthTexture.Load(int3(id.x,     id.y + 1, 0));
+    float d11 = _DepthTexture.Load(int3(id.x + 1, id.y + 1, 0));
+
+    uint indexStart = (id.y * (_TextureWidth - 1) + id.x) * 6;
+
+    // --- **IMPROVED HOLE-FILLING LOGIC** ---
+    // Initialize with a degenerate triangle
+    _IndicesBuffer[indexStart + 0] = 0;
+    _IndicesBuffer[indexStart + 1] = 0;
+    _IndicesBuffer[indexStart + 2] = 0;
+    _IndicesBuffer[indexStart + 3] = 0;
+    _IndicesBuffer[indexStart + 4] = 0;
+    _IndicesBuffer[indexStart + 5] = 0;
+
+    // Check and create the first triangle (top-left, bottom-left, top-right)
+    if (d00 < 0.8 && d01 < 0.8 && d10 < 0.8)
+    {
+        _IndicesBuffer[indexStart + 0] = i00;
+        _IndicesBuffer[indexStart + 1] = i01;
+        _IndicesBuffer[indexStart + 2] = i10;
+    }
+
+    // Check and create the second triangle (top-right, bottom-left, bottom-right)
+    if (d10 < 0.8 && d01 < 0.8 && d11 < 0.8)
+    {
+        _IndicesBuffer[indexStart + 3] = i10;
+        _IndicesBuffer[indexStart + 4] = i01;
+        _IndicesBuffer[indexStart + 5] = i11;
+    }
+}

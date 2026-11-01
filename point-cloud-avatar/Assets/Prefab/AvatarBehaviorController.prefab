@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6943626873968804199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8502046194498946215}
+  - component: {fileID: 5941897142317836200}
+  m_Layer: 0
+  m_Name: AvatarBehaviorController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8502046194498946215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6943626873968804199}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5941897142317836200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6943626873968804199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23515d9be4b3e33429925d5cee925ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headTurnDelay: 0.3
+  explainBehaviorSO: {fileID: 11400000, guid: d8312809986afe0489aaf96074416104, type: 2}
+  avatarAnimator: {fileID: 0}
+  behaviorMappings:
+  - behavior: 5
+    behaviorData: {fileID: 11400000, guid: 8c83a85e3f4db2f4789660df20b1f693, type: 2}
+  - behavior: 3
+    behaviorData: {fileID: 11400000, guid: d0b42a77907bffd4bb76eb4019a360f6, type: 2}
+  - behavior: 8
+    behaviorData: {fileID: 11400000, guid: c51b3be6ca29bcd40b186a36e958308a, type: 2}
+  - behavior: 9
+    behaviorData: {fileID: 11400000, guid: 25c5b5ed516ff234bab8aada1cc5323c, type: 2}
+  - behavior: 10
+    behaviorData: {fileID: 11400000, guid: d8312809986afe0489aaf96074416104, type: 2}
+  - behavior: 11
+    behaviorData: {fileID: 11400000, guid: 149f468ee1689514c8cccaf43a3a8706, type: 2}
+  - behavior: 16
+    behaviorData: {fileID: 11400000, guid: d006dba3b0ba9254b945e47bd0e5ea82, type: 2}
+  closureAnimationDuration: 1.5

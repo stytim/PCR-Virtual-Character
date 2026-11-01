@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chip and PIN card reader
+* source:	https://sketchfab.com/3d-models/chip-and-pin-card-reader-ccc9d1a3f47b4537ac5b8cf75196c40c
+* author:	Mixmamo.studio:   An effortless 3D collections. (https://sketchfab.com/mixmamo.studio)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chip and PIN card reader" (https://sketchfab.com/3d-models/chip-and-pin-card-reader-ccc9d1a3f47b4537ac5b8cf75196c40c) by Mixmamo.studio:   An effortless 3D collections. (https://sketchfab.com/mixmamo.studio) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
