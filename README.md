@@ -2,9 +2,9 @@
 
 Source code for the paper
 
-> **The Impact of Point-Cloud Rendering on User Perceptions of Human- and AI-Controlled Avatar Embodiment**
-> Tianyu Song, Baran Gürsoy, Felix Pabst, Ulrich Eck, Nassir Navab — Technical University of Munich
-> IEEE ISMAR 2026
+> **The Impact of Point-Cloud Rendering on User Perceptions of Human- and AI-Controlled Avatar Embodiment**\
+> Tianyu Song, Baran Gürsoy, Felix Pabst, Ulrich Eck, Nassir Navab — Technical University of Munich\
+> IEEE ISMAR 2026 (IEEE TVCG) · [Paper on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11755483)
 
 The paper studies how people perceive a virtual character that is shown either as a standard shaded mesh or as a simulated **point-cloud rendering (PCR)**, and that is either **teleoperated by a remote human** or **driven by AI**. We ran a 2 × 2 × 2 within-subjects study (rendering × control × scene) with 24 participants on Meta Quest 3. PCR improved perceived human-likeness and appearance–behavior plausibility, especially for the AI-driven character, and closed the human–AI plausibility gap in the high-movement scene.
 
@@ -100,7 +100,8 @@ If you use this code, please cite:
   author  = {Song, Tianyu and G{\"u}rsoy, Baran and Pabst, Felix and Eck, Ulrich and Navab, Nassir},
   journal = {IEEE Transactions on Visualization and Computer Graphics},
   note    = {IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
-  year    = {2026}
+  year    = {2026},
+  doi     = {10.1109/TVCG.2026.3747541}
 }
 ```
 
